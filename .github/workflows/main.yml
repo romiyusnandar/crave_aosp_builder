@@ -33,6 +33,7 @@ on:
       REMOVALS:
         description: "Folders to be removed before syncing:"
         required: false
+        default: 'device/xiaomi kernel/xiaomi vendor/xiaomi'
       LOCAL_MANIFEST:
         description: "Personal local manifest [repository or raw]:"
         required: true
@@ -48,7 +49,7 @@ on:
       PRODUCT_NAME:
         description: "Product to build:"
         required: true
-        default: "orion_sweet-ap1a"
+        default: "orion_sweet-ap2a"
       BUILD_COMMAND:
         description: 'Command to be used for compiling:'
         required: true
